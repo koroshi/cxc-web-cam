@@ -1,0 +1,97 @@
+# compiled output
+/backend/dist
+/backend/node_modules
+/backend/build
+/frontend/dist
+/frontend/node_modules
+/frontend/build
+
+# Logs
+/backend/logs
+/backend/*.log
+/backend/npm-debug.log*
+/backend/pnpm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+/backend/lerna-debug.log*
+/frontend/logs
+/frontend/*.log
+/frontend/npm-debug.log*
+/frontend/pnpm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/lerna-debug.log*
+
+# OS
+/backend/.DS_Store
+/frontend/.DS_Store
+
+# Tests
+/backend/coverage
+/backend/.nyc_output
+/frontend/coverage
+/frontend/.nyc_output
+
+# IDEs and editors
+/backend/.idea
+/backend/.project
+/backend/.classpath
+/backend/.c9/
+/backend/*.launch
+/backend/.settings/
+/backend/*.sublime-workspace
+/frontend/.idea
+/frontend/.project
+/frontend/.classpath
+/frontend/.c9/
+/frontend/*.launch
+/frontend/.settings/
+/frontend/*.sublime-workspace
+
+# IDE - VSCode
+/backend/.vscode/*
+/backend/!.vscode/settings.json
+/backend/!.vscode/tasks.json
+/backend/!.vscode/launch.json
+/backend/!.vscode/extensions.json
+/frontend/.vscode/*
+/frontend/!.vscode/settings.json
+/frontend/!.vscode/tasks.json
+/frontend/!.vscode/launch.json
+/frontend/!.vscode/extensions.json
+
+# dotenv environment variable files
+/backend/.env
+/backend/.env.development.local
+/backend/.env.test.local
+/backend/.env.production.local
+/backend/.env.local
+/frontend/.env
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/.env.local
+
+# temp directory
+/backend/.temp
+/backend/.tmp
+/frontend/.temp
+/frontend/.tmp
+
+# Runtime data
+/backend/pids
+/backend/*.pid
+/backend/*.seed
+/backend/*.pid.lock
+/frontend/pids
+/frontend/*.pid
+/frontend/*.seed
+/frontend/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+/backend/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+/frontend/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# uploads
+/backend/uploads
+/frontend/uploads
