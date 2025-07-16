@@ -1,13 +1,21 @@
 ## 前端 
 1.功能拍照，并且支持上传到指定后端服务器，如果没有就上传不了前端功能还是可用
-### 1.可以直接访问git在线页面
+### ~~1.可以直接访问git在线页面~~
 [静态页面地址](https://koroshi.github.io/cxc-web-cam)
-### 2.或者启动目录下的docs
+当前只能打开第一页，并且页面有点问题，因为next打包成静态和gitpage得问题可以查看，最好还是本地打开部署，然后建议用方法3部署
+### ~~2.或者启动目录下的docs (需要修改next config保证导出静态)~~
 ```bash
+cd frontend
+npm run build
 npm install -g serve
-serve docs
+serve out
 ```
 ### 3.进入frontend，根据里面[README.Md](frontend/README.md)
+这个方法打开得功能最完整
+```bash
+cd frontend
+npm run dev
+```
 
 ## 后端(包含postgresql 镜像如果不需要可以注释和修改配置)
 ### 1.以docker启动,配置在[docker-compose.yml](./docker-compose.yml)
