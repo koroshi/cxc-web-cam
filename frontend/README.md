@@ -40,5 +40,16 @@ the upload need a jwt token, you can set in console via localStorege
 localStorage.setItem('jwt_token', 'your_token_from_backend')
 ```
 
+## for gitpage
+need change the code in page.tsx
+```typescirpt
+router.push("/result"); => router.push("result.html");
+```
 
+and run 
+```bash
+npm run build
+```
+
+<!-- http://127.0.0.1:5500/cxc-web-cam/_next/static/media/e4af272ccee01ff0-s.p.woff2 -->
 

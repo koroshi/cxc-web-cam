@@ -7,7 +7,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fix-paths": "node scripts/fix-relative-paths.js"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",

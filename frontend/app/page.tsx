@@ -49,6 +49,7 @@ export default function Home() {
         // router.push(`/result?id=${imageId}`);
         setImageDataUrl(capturedImage);
         router.push("/result");
+        // router.push("result.html");
         // router.push('/result?image=' + encodeURIComponent(capturedImage));
       } else {
         setAnalysisError("未检测到人物，请确保您的面部清晰可见");

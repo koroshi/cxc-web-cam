@@ -3,7 +3,9 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // 告诉 Next.js 应用将部署在 GitHub Pages 的子路径下
   basePath: "/cxc-web-cam",
-
+  images: {
+    unoptimized: true,
+  },
   // 静态资源路径前缀
   assetPrefix: "/cxc-web-cam/",
 
