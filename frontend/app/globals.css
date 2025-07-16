@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gray-100 font-sans text-gray-800;
+}
+
+.camera-container {
+  @apply relative w-full max-w-md aspect-video bg-black rounded-xl overflow-hidden shadow-lg;
+}
+
+.countdown-overlay {
+  @apply absolute inset-0 flex items-center justify-center bg-black/50 text-white text-8xl font-bold;
+}
